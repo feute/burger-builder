@@ -73,7 +73,7 @@ class ContactData extends Component {
           placeholder="Postal Code"
         />
 
-        <Button btnType="Success" clicked=={this.orderHandler}>ORDER</Button>
+        <Button btnType="Success" clicked={this.orderHandler}>ORDER</Button>
       </form>
     );
 
